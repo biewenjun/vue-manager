@@ -5,17 +5,28 @@ body,
   height: 100%;
 }
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
+
 .is-success .el-input__inner{
   border: 1px solid #67C23A;
 }
+
 .el-menu{
-  //height: calc(100% - 24px);
-  height: 100%;
-  background-color: #eaedf1;
+  height: calc(100% - 24px);
+  border-right: 0px;
+  background-color: #EAEDF1;
 }
-.el-submenu .el-menu-item {
-  min-width: 199px;
+
+.el-card {
+  margin-top: 20px;
+
+  .el-table {
+    margin: 20px 0;
+  }
+}
+.el-cascader__dropdown{
+  height: 200px;
+  overflow-y: auto;
 }
